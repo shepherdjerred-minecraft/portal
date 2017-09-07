@@ -1,0 +1,52 @@
+/* Portal Version 3.3
+Created by Jerred Shepherd (RiotShielder)
+www.shepherdjerred.com
+Portal is a free template and this comment allows people to find me, please don't remove it!
+*/
+
+body {
+    background-image: url("../img/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+::selection {
+    color: #fff;
+    background-color: #6178A5;
+}
+
+a {
+    color: #6178A5;
+}
+
+a:hover {
+    color: #6178A5;
+}
+
+.portal img {
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+}
+
+.portal .logo img {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.portal .icons img {
+    margin-bottom: 15px;
+    top: 0px;
+    transition: all 0.5s ease;
+}
+
+.portal .icons img:hover {
+    top: -7.5px;
+    transition: all 0.5s ease;
+}
